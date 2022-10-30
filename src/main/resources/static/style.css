@@ -1,0 +1,38 @@
+html, body, #container{
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: bold;
+    color: #212529;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.good{
+    background: linear-gradient(-45deg, #33b3ff78, #39f73300);
+}
+
+.bad{
+     background: linear-gradient(-45deg, rgba(252, 26, 26, 0.72), rgba(247, 51, 139, 0.76));
+ }
+
+p{
+    margin: 1rem;
+}
+
+#lst{
+    margin-bottom: 2rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(rgba(0, 0, 0, 0)));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
